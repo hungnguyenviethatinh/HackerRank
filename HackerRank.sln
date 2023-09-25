@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesByMatch", "SalesByMatch\SalesByMatch.csproj", "{5193AE88-6D98-4377-976E-A505D525F142}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingValleys", "CountingValleys\CountingValleys.csproj", "{9DC4FBD1-A12F-4B53-89A8-760BABE7FC00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5193AE88-6D98-4377-976E-A505D525F142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5193AE88-6D98-4377-976E-A505D525F142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5193AE88-6D98-4377-976E-A505D525F142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC4FBD1-A12F-4B53-89A8-760BABE7FC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC4FBD1-A12F-4B53-89A8-760BABE7FC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC4FBD1-A12F-4B53-89A8-760BABE7FC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC4FBD1-A12F-4B53-89A8-760BABE7FC00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

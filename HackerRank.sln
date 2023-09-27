@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{2440D2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayDS", "2DArrayDS\2DArrayDS.csproj", "{EE084BBA-DED9-40A0-8392-D238109DD1A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysLeftRotation", "ArraysLeftRotation\ArraysLeftRotation.csproj", "{3D7A2FF3-567F-4ACA-A67A-223B8C17679E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +43,17 @@ Global
 		{EE084BBA-DED9-40A0-8392-D238109DD1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE084BBA-DED9-40A0-8392-D238109DD1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE084BBA-DED9-40A0-8392-D238109DD1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7A2FF3-567F-4ACA-A67A-223B8C17679E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7A2FF3-567F-4ACA-A67A-223B8C17679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7A2FF3-567F-4ACA-A67A-223B8C17679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7A2FF3-567F-4ACA-A67A-223B8C17679E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EE084BBA-DED9-40A0-8392-D238109DD1A0} = {2440D21A-DD2D-4FA9-8FC4-AC7E650515A5}
+		{3D7A2FF3-567F-4ACA-A67A-223B8C17679E} = {2440D21A-DD2D-4FA9-8FC4-AC7E650515A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8CA0DEF-FDF9-49BE-8FDC-1A19E3E65754}

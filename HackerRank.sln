@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingValleys", "Counting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpingOnTheClouds", "JumpingOnTheClouds\JumpingOnTheClouds.csproj", "{5415E378-E9A8-4AB7-B40E-A2F87939ED9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatedString", "RepeatedString\RepeatedString.csproj", "{4EEEB4D7-9A27-4E56-B6FF-6ADDED361E83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5415E378-E9A8-4AB7-B40E-A2F87939ED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5415E378-E9A8-4AB7-B40E-A2F87939ED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5415E378-E9A8-4AB7-B40E-A2F87939ED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EEEB4D7-9A27-4E56-B6FF-6ADDED361E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEEB4D7-9A27-4E56-B6FF-6ADDED361E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEEB4D7-9A27-4E56-B6FF-6ADDED361E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEEB4D7-9A27-4E56-B6FF-6ADDED361E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿namespace EfficientJanitor.Tests;
 
-public class Tests
+public class EfficientJanitorTests
 {
     private EfficientJanitor _efficientJanitor;
 

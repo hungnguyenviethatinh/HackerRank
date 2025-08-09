@@ -1,69 +1,40 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Animal dog = new Dog("Mích Ky");
+Animal cat = new Cat("Mèo Mun");
 
-using (var m = new Main())
+dog.PrintName();
+cat.PrintName();
+
+bool isDogAnimal = dog.GetType() == typeof(Animal);
+bool isCatAnimal = cat.GetType() == typeof(Animal);
+isDogAnimal = dog is Animal;
+isDogAnimal = dog is Dog;
+isCatAnimal = cat is Animal;
+isCatAnimal = cat is Cat;
+
+object animal = new Animal("Con lợn");
+dog = animal as Dog;
+dog = (Dog)animal;
+dog.PrintName();
+cat = animal as Cat;
+cat = (Cat)animal;
+cat.PrintName();
+
+public class Animal(string name)
 {
-    await m.DoMainWorkAsync();
-}
-
-Console.ReadLine();
-
-internal interface ITest
-{
-    Task DoWorkAsync();
-}
-
-internal class Test : ITest
-{
-    public async Task DoWorkAsync()
+    public virtual void PrintName()
     {
-        await Task.Delay(1000);
-        Console.WriteLine("DoWorkAsync");
+        Console.WriteLine(name);
     }
 }
 
-internal interface ITest2
+public class Dog(string name) : Animal(name)
 {
-    Task DoWork2Async();
 }
 
-internal class Test2 : ITest2
+public class Cat(string name): Animal(name)
 {
-    private readonly ITest _test;
-
-    public Test2(ITest test)
-    {
-        _test = test;
-    }
-
-    public async Task DoWork2Async()
-    {
-        Console.WriteLine("DoWork2Async");
-        await Task.Delay(10000);
-        await _test.DoWorkAsync();
-    }
 }
 
-internal class Main : IDisposable
+public class Pig(string name): Animal(name)
 {
-    private ITest _test;
-    private ITest2 _test2;
-
-    public Main()
-    {
-        _test = new Test();
-        _test2 = new Test2(_test);
-    }
-
-    public void Dispose()
-    {
-        _test = null;
-        _test2 = null;
-    }
-
-    public async Task DoMainWorkAsync()
-    {
-        Console.WriteLine("DoMainWorkAsync");
-        await Task.Delay(1000);
-        _ = _test2.DoWork2Async();
-    }
 }

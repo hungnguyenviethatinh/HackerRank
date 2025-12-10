@@ -10,6 +10,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddHostedService<Job>();
 
+builder.Services.AddScoped<IRepository, Repository>();
+builder.Services.AddHttpClient<IExternalApi, ExternalApi>();
+builder.Services.AddHostedService<BackgroundJob>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
